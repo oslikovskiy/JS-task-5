@@ -7,7 +7,7 @@ function sum(a, b) {
 //c(2,2) => 4, c(3,3) => 27, c(4,5) => 1024, typeof c() => number
 
 function mathPow(c, n) {
-  return (c, n);
+  return mathPow(c, n);
 }
 
 //d(1) => {a:1}, d(123) => {a:123}, typeof d() => object
@@ -32,7 +32,7 @@ function e(x) {
 function f(a, b) {
   var arry = [];
   for (var i; i < b; i++) {
-    array.push(c);
+    arry.push(a);
   }
   return arry;
 }
@@ -59,7 +59,7 @@ function h(func) {
 function j(arry) {
   var sum = 0;
   for (var i = 0; i < arry.length; i++) {
-    sum += a[i];
+    sum += arry[i];
   }
   return sum;
 }
