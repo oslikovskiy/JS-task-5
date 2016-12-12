@@ -6,7 +6,7 @@ function sum(a, b) {
 
 //c(2,2) => 4, c(3,3) => 27, c(4,5) => 1024, typeof c() => number
 
-function Math.pow(c, n) {
+function pow(c, n) {
   return Math.pow(c, n);
 }
 
