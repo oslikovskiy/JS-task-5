@@ -6,8 +6,8 @@ function sum(a, b) {
 
 //c(2,2) => 4, c(3,3) => 27, c(4,5) => 1024, typeof c() => number
 
-function mathPow(c, n) {
-  return mathPow(c, n);
+function Math.pow(c, n) {
+  return Math.pow(c, n);
 }
 
 //d(1) => {a:1}, d(123) => {a:123}, typeof d() => object
