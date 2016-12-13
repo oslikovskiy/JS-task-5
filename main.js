@@ -1,6 +1,6 @@
 //a() => 5, typeof a() => number
 
-function () {
+function a() {
   return 5; 
 }
 
